@@ -64,10 +64,11 @@ header h1 {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-   }
+   } 
      section {
        padding: 60px;
-       background-image: url("..url/images/hero-bg.jpg");
+      } /*
+       background-image: url("../images/hero-bg.jpg");
      }
      
    /* Hero Style Start */
@@ -88,7 +89,7 @@ header h1 {
     color: #024e76;
     border: 3px solid #024e76;
     position: absolute;
-    bottom: 120px;
+    top: 120px;
     right: 140px;
   }
    .hero-form p {
@@ -99,7 +100,7 @@ header h1 {
     margin: 0;
   }
   
-  .form-input {
+  .hero-form input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -111,9 +112,36 @@ header h1 {
   .hero-form label {
     margin: 0 5px;
   }
-
-
   
-  
+  .hero-form input[type='radio']  {
+    display: inline-block; 
+  position:relative;
+  padding: 0 !important;
+  width: 5% !important;
+}
+  .hero-form input[type='radio']:checked+label:before {
+    position: relative;
+    border: 1px solid #024e76;
+ 
+    height: 20px;
+    top: 5px;
+    content: " ";
+    display: inline-block;
+    
+  }
+  .hero-form input[type='checkbox']  {
+    display: inline-block; 
+  position:relative;
+  padding: 0 !important;
+  width: 5% !important;
+}
+ .hero-form button {
+   color: #fce138;
+   background-color: #024e76;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+ }
+  /* HERO STYLES END */
 
-
+ }
