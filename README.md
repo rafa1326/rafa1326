@@ -1,10 +1,14 @@
-- 👋 Hi, I’m @rafa1326
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Run Buddy
 
-<!---
-rafa1326/rafa1326 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Purpose 
+A website that offers fitness training services
+
+## Built with 
+* HTML
+* CSS
+
+## Website 
+https://lernantino.github.io/run-buddy
+
+## Contribution
+Made with love by [ralph]
